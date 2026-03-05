@@ -1,0 +1,20 @@
+# Air Quality Extension
+
+## Description
+Cette extension web permet d’entrer le nom d’une ville pour afficher les données de qualité de l’air et le niveau de pollution.
+
+## Fonctionnalités
+- Recherche de la qualité de l’air par ville
+- Affichage des informations de pollution atmosphérique
+- Interface simple et rapide
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- API de qualité de l’air
+
+## Utilisation
+1. Installer l’extension dans le navigateur
+2. Entrer le nom d’une ville
+3. L’extension affiche les données de qualité de l’air

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="" method="get">
+        <label for="city"></label>
+        <input name="city" id="city" placeholder="ville" type="text" />
+        <button id="btnSend">montrer</button>
+  </form>
+  <div id="quality_block">
+    <p id="quality_value"></p>
+  </div>
+    <script src="popup.js"></script>
+    <style>
+       
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #aec3b0, #dedbd2);
+ 
+  flex-direction: column;
+  
+  margin: 0;
+  
+  min-width: 260px;
+  min-height: 300px;
+  padding: 20px;
+
+
+}
+
+
+form {
+  background: white;
+  padding: 20px 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10px;
+}
+
+
+input[type="text"] {
+  border: 2px solid #ffd6e0;
+  border-radius: 12px;
+  padding: 10px 15px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #e29578;
+  box-shadow: 0 0 5px rgba(255, 154, 162, 0.5);
+}
+
+/* Bouton */
+button {
+  background: #e29578;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 18px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e29578;
+  transform: scale(1.05);
+}
+
+/* Bloc résultat */
+#quality_block {
+  margin-top: 20px;
+  ;
+  padding: 15px 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Texte résultat */
+#quality_value {
+  font-size: 18px;
+  ;
+}
+ 
+.good {
+  background-color: #588157;
+}
+
+
+.medium {
+  background-color: #e9c46a;
+  color: #333;
+}
+
+
+.bad {
+  background-color: #e76f51;
+}
+
+
+.verybad {
+  background-color: #5f0f40;
+}
+    </style>
+</body>
+</html>
